@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libcyber_dog_motor_sdk.so -o libcyber_dog_motor_sdk.so CMakeFiles/cyber_dog_motor_sdk.dir/src/CustomInterface.cpp.o  -Wl,-rpath,/usr/local/lib: -lpthread /usr/local/lib/liblcm.so.1.4.0 
